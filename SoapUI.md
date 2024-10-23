@@ -3,8 +3,8 @@
 1. SOAP (Simple Object Access Protocol) : protocol for defining messages sent between clients and servers in **XML** form.
    <h4>Structure of soap message :</h4> 
    - Envelope : Defines the beginning and end of the message.<br>
-   -  <br>
-   - slls
+   - Header (optional): Contains additional information (such as authentication).<br>
+   - Body: The core part contains the data to be processed.
    
 3. REST (Representational State Transfer) : software architecture used to design web services that can be accessed via the **HTTP** protocol
 
